@@ -2,11 +2,11 @@
 Developed a React based Google Meet Application with one-to-one video calling and text-chatting features. Users can also share their screen.
 
 ## Setup
-First clone this github repository. After that open terminal in the root directory and run **npm install**. Then go to the client directory and again run **npm install**. This will install all the required dependencies. Make sure you have React and Redis installed in your computer.
+First clone this github repository. After that open terminal in the root directory and run `npm install`. Then go to the client directory and again run `npm install`. This will install all the required dependencies. Make sure you have React and Redis installed in your computer.
 
-Now in your main folder create a new **.env** file and inside it write **PORT=4000**.  
+Now in your main folder create a new `.env` file and inside it write `PORT=4000`.  
 
-Now open a new terminal and run **redis-server**. In the root directory run **node server.js** and in the client directory run **npm start**. Application will start running in http://localhost:3000/.
+Now open a new terminal and run `redis-server`. In the root directory run `node server.js` and in the client directory run `npm start`. Application will start running in http://localhost:3000/.
 
 ## Application Description
 The home page will look like this:
